@@ -16,6 +16,11 @@ public class EnemyMovement : MonoBehaviour
         
     }
 
+    void FindPath()
+    {
+        GameObject[] waypoint = GameObject.FindGameObjectsWithTag("Path");
+    }
+
     IEnumerator FollowPath()
     {
         foreach (Waypoint waypoint in path)
