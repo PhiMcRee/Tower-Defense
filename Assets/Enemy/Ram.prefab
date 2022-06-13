@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5100346723484795811}
   - component: {fileID: 7935128199451753193}
   - component: {fileID: 6861945619009937021}
+  - component: {fileID: 9106165168013773651}
   m_Layer: 0
   m_Name: RamMesh
   m_TagString: Untagged
@@ -81,6 +82,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9106165168013773651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070758372805021848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60802f58a5a088e448d7d7afc1754cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5040643765344069697
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +104,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5672325927823913723}
   - component: {fileID: 3549344036860501282}
+  - component: {fileID: 666993854702077092}
+  - component: {fileID: -8135059249038225348}
   m_Layer: 0
   m_Name: Ram
   m_TagString: Untagged
@@ -126,4 +141,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  waitTime: 1
+  speed: 1
+--- !u!65 &666993854702077092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.8, y: 4.07, z: 5.04}
+  m_Center: {x: 0, y: 1.94, z: 0.21}
+--- !u!114 &-8135059249038225348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5040643765344069697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60802f58a5a088e448d7d7afc1754cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
