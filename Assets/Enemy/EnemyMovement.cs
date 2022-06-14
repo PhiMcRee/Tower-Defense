@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
 
         FindPath();
@@ -52,7 +52,7 @@ public class EnemyMovement : MonoBehaviour
                 
         }
 
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
 }
