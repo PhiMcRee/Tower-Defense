@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
@@ -32,13 +33,24 @@ public class EnemyMovement : MonoBehaviour
 
         foreach (Transform child in parent.transform)
         {
-            path.Add(child.GetComponent<Waypoint>());
+            Waypoint waypoint = child.GetComponent<Waypoint>();
+            if(waypoint != null)
+              {
+              path.Add(waypoint);
+              }
         }
+
     }
 
     void ReturnToStart()
     {
         transform.position = path[0].transform.position;
+    }
+
+    void FinishPath()
+    {
+        enemy.StealGold();
+        gameObject.SetActive(false);
     }
 
     IEnumerator FollowPath()
@@ -58,8 +70,7 @@ public class EnemyMovement : MonoBehaviour
             }
                 
         }
-        enemy.StealGold();
-        gameObject.SetActive(false);
+        FinishPath();
     }
 
 }
