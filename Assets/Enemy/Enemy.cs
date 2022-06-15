@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] int goldReward = 15;
+    [SerializeField] int goldReward = 20;
     [SerializeField] int goldPenalty = 10;
 
     Bank bank;
