@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] int maxHitPoints = 5;
     [Tooltip("Adds amount to max hitpoints when Enemy dies")]
-    [SerializeField] int difficultyRamp = 1;
+    [SerializeField] int difficultyRamp = 2;
 
     int currentHitpoints = 0;
 

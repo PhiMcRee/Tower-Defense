@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7935128199451753193}
   - component: {fileID: 6861945619009937021}
   - component: {fileID: 9106165168013773651}
+  - component: {fileID: 3182840626286846078}
   m_Layer: 0
   m_Name: RamMesh
   m_TagString: Untagged
@@ -95,7 +96,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHitPoints: 5
-  currentHitpoints: 0
+  difficultyRamp: 2
+--- !u!114 &3182840626286846078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070758372805021848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0924b9ce11b44f8498fec277d415c26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
 --- !u!1 &5040643765344069697
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: []
-  speed: 1
+  speed: 0.5
 --- !u!65 &666993854702077092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -171,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHitPoints: 5
-  currentHitpoints: 0
+  difficultyRamp: 3
 --- !u!114 &1185036904884901644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,3 +199,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0924b9ce11b44f8498fec277d415c26e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 15
+  goldPenalty: 25
