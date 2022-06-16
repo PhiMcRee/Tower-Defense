@@ -1,3 +1,4 @@
+#if (UNITY_EDITOR)
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,12 +25,6 @@ public class CoordinateLabel : MonoBehaviour
         DisplayCoordinates();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -44,7 +39,7 @@ public class CoordinateLabel : MonoBehaviour
         ToggleLabels();
     }
 
-        void ToggleLabels()
+    void ToggleLabels()
         {
             if (Input.GetKeyDown(KeyCode.C))
             {
@@ -79,3 +74,4 @@ public class CoordinateLabel : MonoBehaviour
         transform.parent.name = coordinates.ToString();
     }
 }
+#endif
