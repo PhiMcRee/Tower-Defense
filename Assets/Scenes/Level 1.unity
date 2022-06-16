@@ -20348,19 +20348,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 297.5439
+      value: 329.435
       objectReference: {fileID: 0}
     - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 119.4344
+      value: 136.2193
       objectReference: {fileID: 0}
     - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -306.67725
+      value: -338.56836
       objectReference: {fileID: 0}
     - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.48999
+      value: 5.049988
       objectReference: {fileID: 0}
     - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_text
@@ -20371,22 +20371,26 @@ PrefabInstance:
         Enemy reaches
         end: - 10g
 
-        If enemy reaches end and bank is 0, game restarts
+        If enemy reaches end and bank is 0, you lose!
 
         ALT+F4
         to close'
       objectReference: {fileID: 0}
     - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_fontSize
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
     - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_fontSizeBase
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_sharedMaterial
