@@ -9504,7 +9504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1109475370568506142, guid: 8582744ae87d95442af4b5a70152028a, type: 3}
       propertyPath: m_text
-      value: 10,6
+      value: 11,6
       objectReference: {fileID: 0}
     - target: {fileID: 1109475370568506142, guid: 8582744ae87d95442af4b5a70152028a, type: 3}
       propertyPath: m_Enabled
@@ -20226,6 +20226,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1714685073496428338, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontSize
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714685073496428338, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714685073496428339, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 288.6368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714685073496428339, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 48.9744
+      objectReference: {fileID: 0}
     - target: {fileID: 1714685073728856184, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -20313,6 +20329,72 @@ PrefabInstance:
     - target: {fileID: 1714685073728856188, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 297.5439
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 119.4344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -306.67725
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746377840999076714, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.48999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_text
+      value: 'Ballista cost: 75g
+
+        Enemy Destroyed: + 20g
+
+        Enemy reaches
+        end: - 10g
+
+        If enemy reaches end and bank is 0, game restarts
+
+        ALT+F4
+        to close'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontSize
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 8490328682642537319, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b62b9f9f12da541a346c60e88ae10d, type: 3}
